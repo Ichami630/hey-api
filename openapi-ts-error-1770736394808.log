@@ -1,0 +1,13 @@
+[2026-02-10T15:13:14.808Z] Error: Invalid Hey API shorthand format. Expected "organization/project?queryParams" or "organization/project", received: openapi/users.swagger.json
+Stack:
+Error: Invalid Hey API shorthand format. Expected "organization/project?queryParams" or "organization/project", received: openapi/users.swagger.json
+    at parseShorthand$2 (file:///home/ichami/Documents/projects/hey-api/node_modules/@hey-api/shared/dist/index.mjs:292:21)
+    at inputToHeyApiPath (file:///home/ichami/Documents/projects/hey-api/node_modules/@hey-api/shared/dist/index.mjs:312:17)
+    at inputToApiRegistry (file:///home/ichami/Documents/projects/hey-api/node_modules/@hey-api/shared/dist/index.mjs:431:24)
+    at getInput (file:///home/ichami/Documents/projects/hey-api/node_modules/@hey-api/shared/dist/index.mjs:476:39)
+    at expandToJobs (file:///home/ichami/Documents/projects/hey-api/node_modules/@hey-api/openapi-ts/dist/init-W7OZahc5.mjs:19:18)
+    at resolveJobs (file:///home/ichami/Documents/projects/hey-api/node_modules/@hey-api/openapi-ts/dist/init-W7OZahc5.mjs:13822:36)
+    at async createClient (file:///home/ichami/Documents/projects/hey-api/node_modules/@hey-api/openapi-ts/dist/src-BbXkGzWZ.mjs:167:20)
+    at async Command.<anonymous> (file:///home/ichami/Documents/projects/hey-api/node_modules/@hey-api/openapi-ts/dist/run.mjs:38:8)
+    at async Command.parseAsync (/home/ichami/Documents/projects/hey-api/node_modules/commander/lib/command.js:1122:5)
+    at async runCli (file:///home/ichami/Documents/projects/hey-api/node_modules/@hey-api/openapi-ts/dist/run.mjs:42:3)
